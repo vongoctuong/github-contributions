@@ -40,4 +40,4 @@ const makeCommits = async (n) => {
   await git.push();
 };
 
-makeCommits(500);
+makeCommits(50000);
